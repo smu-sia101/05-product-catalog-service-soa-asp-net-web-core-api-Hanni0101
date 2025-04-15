@@ -1,0 +1,41 @@
+.ProductList-content {
+    padding-top: 12vh;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.ProductList-Table {
+    padding: 20px;
+    max-width: 95%;
+    margin: 0 auto;
+    
+}
+
+.table-header {
+    background-color: #3F51B5 !important;
+}
+
+.table-header th {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+}
+
+.description-cell {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-image {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
